@@ -1,0 +1,23 @@
+{
+  "name": "js_function",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rational.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhukoff-av/js_function.git"
+  },
+  "author": "A.Z.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhukoff-av/js_function/issues"
+  },
+  "homepage": "https://github.com/zhukoff-av/js_function#readme",
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-plugin-react": "^7.5.1"
+  }
+}
