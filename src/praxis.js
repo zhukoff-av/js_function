@@ -16,13 +16,19 @@ const fizzBuzz = (begin, end) => {
 
 //fizzBuzz(11,20);
 
+// BEGIN (write your solution here) (write your solution here)
 const diff = (a,b) => {
-  if (a-b > 180) {
-    return b-a;
-  } else {
-    return a-b;
-  }
-  console.log(diff);
-};
+  const s = 360;
+  const delta = Math.abs(a - b);
 
+  if (delta > 180) {
+    return s - delta;
+  } else if (a > b & delta < 180) {
+    return a - b;
+  } else if (a < b & delta < 180) {
+    return b - a;
+  }
+};
+// END
+export default diff;
 diff(5, 190);
