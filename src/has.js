@@ -1,6 +1,4 @@
 //TODO need to import { l, cons, head, tail, isEmpty, toString as listToString }
-
-//change author
 export const has = (list, element) => {
   if (isEmpty(list)) {
     return false;
