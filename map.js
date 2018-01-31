@@ -1,5 +1,4 @@
 // map implementation
-
 //need to import node, cons, l, isEmpty, head, tail, cons, reverse, toString as listToString, reverseStr
 
 export const map = (func, elements) => {
