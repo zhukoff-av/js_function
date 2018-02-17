@@ -41,7 +41,7 @@ const squareOfSum = (n) => {
 export const sumSquareDifference = n =>
   squareOfSum(n) - sumOfSquares(n);
 
-// Diff angle
+// difference of angles
 export const diff = (a, b) => {
   const angle = Math.abs(a - b);
   const difference = angle > 180 ? 360 - angle : angle;
