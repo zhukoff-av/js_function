@@ -23,5 +23,5 @@ while (low <= high) {
 
 const list = [1, 2, 3, 5, 7, 8, 9, 10, 30, 50, 70, 90];
 
-console.log(binary_search(list, 90)); // 1
+console.log(binary_search(list, 90)); // 11
 console.log(binary_search(list, -10)); // null
