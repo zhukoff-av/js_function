@@ -30,4 +30,18 @@ const countdown = (i) => {
   return null;
 };
 
-countdown(99);
+// countdown(12);
+
+//GREETING with recursion
+const greet2 = name => console.log(`How are you, ${name}?`);
+
+const bye = name => console.log(`Bye, ${name}!`);
+
+const greet = (name) => {
+  console.log(`Hello, ${name}!`);
+  greet2(name);
+  console.log('Getting ready to say bye...');
+  bye(name);
+};
+
+greet('Steve');
