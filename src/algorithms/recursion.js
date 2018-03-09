@@ -1,3 +1,5 @@
+
+// FACTORIAL
 const factorial = (x) => {
   if (x === 1) {
     return 1;
@@ -15,3 +17,17 @@ const factorial = (x) => {
 // console.log('Factorial 9: ', factorial(9));
 // console.log('Factorial 10:', factorial(10));
 // console.log('Factorial 11:', factorial(11));
+
+
+// COUNTDOWN
+const countdown = (i) => {
+  console.log(i);
+  // base case
+  if (i <= 0) {
+    return null;
+  }
+  countdown(i - 1);
+  return null;
+};
+
+countdown(99);
