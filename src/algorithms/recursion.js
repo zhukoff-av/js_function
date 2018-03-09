@@ -32,7 +32,7 @@ const countdown = (i) => {
 
 // countdown(12);
 
-//GREETING with recursion
+//GREETING
 const greet2 = name => console.log(`How are you, ${name}?`);
 
 const bye = name => console.log(`Bye, ${name}!`);
