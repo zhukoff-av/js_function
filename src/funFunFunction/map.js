@@ -24,4 +24,13 @@ const myTaskForToday = [
     // Map using ES6
   const nameTaskForToday = myTaskForToday.map((task) => task.name);
   
-  console.log(nameTaskForToday); // ["first", "second", "third"]
+  console.log(nameTaskForToday); // ["first", "second", "third"];
+
+// Mozilla example
+  const arr = [1, 4, 9, 16];
+
+// pass a function to map
+const map = arr.map(x => x * 2);
+
+console.log(map);
+// expected output: Array [2, 8, 18, 32]
