@@ -21,7 +21,7 @@ const myTaskForToday = [
     },
     ];
   
-    // using Map for dispay
+    // Map using ES6
   const nameTaskForToday = myTaskForToday.map((task) => task.name);
   
   console.log(nameTaskForToday); // ["first", "second", "third"]
