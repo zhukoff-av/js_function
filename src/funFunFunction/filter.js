@@ -4,7 +4,7 @@ const isBigEnough = value => value >= 10;
 
 const filteredValues = [12, 5, 80, 10, 55].filter(isBigEnough);
 
-// console.log(filteredValues);
+console.log(filteredValues);
 
 
 // Filtering invalid entries from JSON
@@ -40,7 +40,7 @@ const arr = [
 
 //   Searching in array
 
-  const fruits = ['New York', 'Berlin', 'Frankfurt', 'Stockholm', ''];
+  const city = ['New York', 'Berlin', 'Frankfurt', 'Stockholm', ''];
 
 /**
  * Array filters items based on search criteria (query)
