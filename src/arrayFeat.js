@@ -2,7 +2,6 @@
 // Spread
 let parts = ['first', 'second'];
 let lyrics = ['zero', ...parts, 'and', 'third'];
-// ["голова", "плечи", "колени", "и", "пальцы"]
 // console.log(lyrics); // ["zero", "first", "second", "and", "third"]
 
 let arr = [1, 2, 3];
